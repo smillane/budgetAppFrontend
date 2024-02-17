@@ -28,7 +28,6 @@ import {
   IconChevronDown,
 } from '@tabler/icons-react';
 import classes from './Header.module.css';
-import React from 'react';
 
 const mockdata = [
   {
@@ -140,8 +139,8 @@ export function Header() {
                 </div>
               </HoverCard.Dropdown>
             </HoverCard>
-            <a href="#" className={classes.link}>
-              Learn
+            <a href="/dashboard" className={classes.link}>
+              Dashboard
             </a>
             <a href="#" className={classes.link}>
               Academy
@@ -184,8 +183,8 @@ export function Header() {
             </Center>
           </UnstyledButton>
           <Collapse in={linksOpened}>{links}</Collapse>
-          <a href="#" className={classes.link}>
-            Learn
+          <a href="/dashboard" className={classes.link}>
+            Dashboard
           </a>
           <a href="#" className={classes.link}>
             Academy

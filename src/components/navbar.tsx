@@ -1,5 +1,4 @@
-import React from 'react';
-import { Group, Code, ScrollArea, rem } from '@mantine/core';
+import { Group, Code, ScrollArea } from '@mantine/core';
 import {
   IconNotes,
   IconCalendarStats,
@@ -50,7 +49,7 @@ const mockdata = [
   },
 ];
 
-export function NavbarNested() {
+export function Navbar() {
   const links = mockdata.map((item) => <LinksGroup {...item} key={item.label} />);
 
   return (
